@@ -1,5 +1,6 @@
 #Modules
 import dash
+
 from dash import dcc
 from dash import html
 import dash_bootstrap_components as dbc
@@ -8,7 +9,7 @@ import pandas as pd
 
 #DATA import
 
-Excel_file = 'data/my_shop_data.xlsx'
+Excel_file = '/Users/evamittag/Documents/GitHub/Delivery1/my_shop_data.xlsx'
 customers = pd.read_excel(Excel_file, "customers")
 order = pd.read_excel(Excel_file, "order")
 employee = pd.read_excel(Excel_file, "employee")
